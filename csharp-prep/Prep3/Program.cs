@@ -4,6 +4,18 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Prep3 World!");
+        Random randomGenerator = new Random();
+        int magicNumber = randomGenerator.Next(1, 101);
+
+        Console.WriteLine("What is your guess? ");
+        guessNumber = Console.ReadLine();
+
+        while guessNumber != magicNumber
+            {
+                Console.WriteLine("What is your guess? ")
+            }
+
+        Console.WriteLine("You've guessed the number? ")
+        
     }
 }
