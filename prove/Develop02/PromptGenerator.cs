@@ -27,8 +27,6 @@ namespace Develop02
 
             _givenPrompt = _prompts[randomNumber];
 
-            Console.WriteLine($"{_givenPrompt}");
-
             return _givenPrompt;
         }
     }
