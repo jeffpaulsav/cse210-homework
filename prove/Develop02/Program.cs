@@ -1,5 +1,6 @@
 using Develop02;
 using System;
+using System.Collections.Generic;
 
 class Program
 {
@@ -9,7 +10,8 @@ class Program
 
         Entry anEntry = new Entry();
 
-        anEntry.Display();
+        PromptGenerator randomPrompt = new PromptGenerator();
+        randomPrompt.GetRandomPrompt();
 
         Console.WriteLine("Hello Develop02 World!");
     }
